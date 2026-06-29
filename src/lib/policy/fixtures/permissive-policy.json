@@ -1,0 +1,30 @@
+{
+  "allowedDomains": [
+    "api.safe-research.ai",
+    "tools.verified-data.dev",
+    "workers.fortexa-demo.stellar",
+    "analytics.fortexa-external.top",
+    "integration-staging.fortexa.internal"
+  ],
+  "blockedDomains": [
+    "wallet-drainer.evil"
+  ],
+  "allowedTools": [
+    "research-pro",
+    "market-feed",
+    "settlement-worker",
+    "analytics-pro",
+    "debug-helper"
+  ],
+  "blockedTools": [
+    "shadow-shell"
+  ],
+  "perTxCapXLM": 500,
+  "dailyCapXLM": 2500,
+  "maxToolCallsPerDay": 50,
+  "riskThreshold": 90,
+  "allowedHours": {
+    "start": 0,
+    "end": 23
+  }
+}

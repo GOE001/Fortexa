@@ -1,0 +1,19 @@
+{
+  "blockedDomains": [
+    "wallet-drainer.evil"
+  ],
+  "allowedTools": [
+    "research-pro"
+  ],
+  "blockedTools": [
+    "shadow-shell"
+  ],
+  "perTxCapXLM": -5,
+  "dailyCapXLM": 300,
+  "maxToolCallsPerDay": 8,
+  "riskThreshold": 78,
+  "allowedHours": {
+    "start": 6,
+    "end": 23
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "allowedDomains": [
+    "api.safe-research.ai"
+  ],
+  "blockedDomains": [
+    "wallet-drainer.evil",
+    "prompt-pwn.io",
+    "untrusted-mirror.xyz",
+    "untrusted-mirror.xyz"
+  ],
+  "allowedTools": [
+    "research-pro"
+  ],
+  "blockedTools": [
+    "shadow-shell",
+    "autonomous-payout-bypass",
+    "market-feed",
+    "settlement-worker"
+  ],
+  "perTxCapXLM": 10,
+  "dailyCapXLM": 50,
+  "maxToolCallsPerDay": 2,
+  "riskThreshold": 50,
+  "allowedHours": {
+    "start": 8,
+    "end": 18
+  }
+}
